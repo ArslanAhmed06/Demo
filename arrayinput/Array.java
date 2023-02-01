@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Array {
 
@@ -17,30 +16,10 @@ public class Array {
 				System.out.println(cars[i][j]);
 			}
 		}
-		 String name = "Programiz";
-
-		    System.out.println("Characters in " + name + " are:");
-
-		    // loop through each element
-		    for(int i = 0; i<name.length(); i++) {
-
-		      // access each character
-		      char a = name.charAt(i);
-		      System.out.print(a + ", " + '\n');
-		      
-		    }
-		    
-		    String car = "Audi";
-		    System.out.println("Characters in " + car + " are:");
-		    
-		    for(int i = 0; i<car.length(); i++) {
-		    	char b = car.charAt(i);
-		    	System.out.println(b + ", ");
-		    }
-		    int n;  
+		   int n;
 		    Scanner sc=new Scanner(System.in);  
 		    System.out.print("Enter the number of elements you want to store: ");   
-		    n=sc.nextInt();  
+		    n=scan.nextInt();  
 		    int[] array = new int[10];  
 		    System.out.println("Enter the elements of the array: ");  
 		    for(int i=0; i<n; i++)  
