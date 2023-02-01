@@ -1,4 +1,9 @@
+class Major {
+	public void sysout() {
+		System.out.println("new Method is here");
 
+	}
+}
 public class Array {
 
 	public static void main(String[] args) {
@@ -11,6 +16,9 @@ public class Array {
 			for(int j=0; j<cars[i].length; ++j) {
 				System.out.println(cars[i][j]);
 			}
+			Major nmbr = new Major();
+			nmbr.sysout();
+			
 		}
 		   int n;
 		    Scanner sc=new Scanner(System.in);  
