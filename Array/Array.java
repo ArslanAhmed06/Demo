@@ -28,15 +28,6 @@ public class Array {
 		      System.out.print(a + ", " + '\n');
 		      
 		    }
-		    
-		    String car = "Audi";
-		    System.out.println("Characters in " + car + " are:");
-		    
-		    for(int i = 0; i<car.length(); i++) {
-		    	char b = car.charAt(i);
-		    	System.out.println(b + ", ");
-		    }
-			
 	}
 
 }
